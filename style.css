@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-*body {
+* {
 	box-sizing: border-box;
 	font-family: Helvetica, sans-serif;
 }
@@ -57,35 +57,22 @@ body {
 	padding-left: 10px;
 	margin-top: 20px;
 }
-		/*maybe list
-.tiles ul { 
-	list-style-type: none;
-	float: left;
-	width:320px;
-	margin-top: 40px;
-	padding: 0;
-}
-.tiles ul li {
-	display: inline-block;
-	height: 40px;
-	margin: 0px;
-	padding: 0px;
-}
-.left {
-	width:70px;
-	border: 1px solid black;
-	text-align: center;
-	line-height: 40px;
-} 
-.middle {
-	width: 160px;
-	border: 1px solid black;
-	line-height: 40px;
-}
-*/
+
 #prev {
 	width:300px;
 }
-#box1 {
-	width: 60px;
+.box1, .box2 {
+	border: solid black 1px;
+	display: inline-block
+}
+.pagination {
+	margin-top: 20px;
+}
+.box1 {
+	width: 60px;	
+	height: 40px;
+}
+.box2 {
+	width: 300px;	
+	height: 40px;
 }
